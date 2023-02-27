@@ -1,5 +1,6 @@
 :root {
     --a: #775577;
+    --a2: #7e2358;
     --bg--fond--body: #f3edfa;
     --bg--fond--nav: #f3f1f9;
     --bg--ombre--nav: #ccbbcc;
@@ -14,7 +15,7 @@
 
 a {
     text-decoration: none;
-    color: var(--a);
+    color: var(--a2);
     font-weight: bold;
 }
 
@@ -24,7 +25,7 @@ body {
 }
 
 .navigation {
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
     background-color: var(--bg--fond--nav);
     box-shadow: 0 0 20px 0 var(--bg--ombre--nav);
 }
@@ -51,13 +52,23 @@ body {
 
 .menu li {
     list-style: none;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .menu a {
     font-size: 1rem;
 }
 
+.lien-gh {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lien-gh img {
+    height: 25px;
+}
 
 
 
