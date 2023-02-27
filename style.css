@@ -1,7 +1,6 @@
 :root {
-    --a: #775577;
-    --a2: #7e2358;
-    --bg--fond--body: #f3edfa;
+    --a: #7e2358;
+    --bg--fond--body: #eeeaf5;
     --bg--fond--nav: #f3f1f9;
     --bg--ombre--nav: #ccbbcc;
     --font-fam: sans-serif;
@@ -10,12 +9,15 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
     font-family: var(--font-fam);
 }
 
 a {
     text-decoration: none;
-    color: var(--a2);
+    color: var(--a);
     font-weight: bold;
 }
 
@@ -24,7 +26,7 @@ body {
     min-height: 100vh;
 }
 
-.navigation {
+.header {
     padding: 0.7rem 2rem;
     background-color: var(--bg--fond--nav);
     box-shadow: 0 0 20px 0 var(--bg--ombre--nav);
@@ -34,7 +36,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .logo a {
@@ -48,6 +51,7 @@ body {
 
 .menu ul {
     display: flex;
+    align-items: center;
 }
 
 .menu li {
@@ -66,9 +70,6 @@ body {
     justify-content: center;
 }
 
-.lien-gh img {
-    height: 25px;
-}
 
 
 
