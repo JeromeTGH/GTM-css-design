@@ -27,15 +27,16 @@ body {
 }
 
 .header {
-    padding: 0.7rem 2rem;
+    display: block;
     background-color: var(--bg--fond--nav);
     box-shadow: 0 0 20px 0 var(--bg--ombre--nav);
+    padding: 0.7rem 2rem;
 }
 
-.nav-container {
+.head-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     max-width: 1400px;
     margin: auto;
 }
@@ -79,4 +80,18 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: center;
+    min-height: 75vh;
+}
+
+.footer {
+    display: block;
+    padding: 0.7rem 2rem;
+}
+
+.foot-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
