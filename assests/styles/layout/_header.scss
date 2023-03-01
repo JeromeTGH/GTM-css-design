@@ -1,16 +1,14 @@
-@use '../variables';
-
 .header {
     display: block;
-    background-color: variables.$couleurFondNav;
-    box-shadow: 0 0 20px 0 variables.$couleurOmbreNav;
+    background-color: $couleurFondNav;
+    box-shadow: 0 0 20px 0 $couleurOmbreNav;
     padding: 0.7rem 2rem;
 
     .head-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: variables.$windowMaxSize;
+        max-width: $windowMaxSize;
         margin: auto;
 
         .logo {
@@ -18,7 +16,7 @@
                 font-size: 2rem;
 
                 &:hover {
-                    color: variables.$couleurAhover;
+                    color: $couleurAhover;
                 }
             }
         }
@@ -39,7 +37,7 @@
                         font-size: 1rem;
 
                         &:hover {
-                            color: variables.$couleurAhover;
+                            color: $couleurAhover;
                         }
                     }
                 }
