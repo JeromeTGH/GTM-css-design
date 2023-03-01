@@ -1,0 +1,7 @@
+//  Importation de tous les fichiers SCSS
+
+@use './parametresGeneraux';
+
+@use './layout/header';
+@use './layout/content';
+@use './layout/footer';

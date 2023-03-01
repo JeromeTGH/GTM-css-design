@@ -1,0 +1,60 @@
+@use '../variables';
+
+.header {
+    display: block;
+    background-color: variables.$couleurFondNav;
+    box-shadow: 0 0 20px 0 variables.$couleurOmbreNav;
+    padding: 0.7rem 2rem;
+
+    .head-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: variables.$windowMaxSize;
+        margin: auto;
+
+        .logo {
+            a {
+                font-size: 2rem;
+
+                &:hover {
+                    color: variables.$couleurAhover;
+                }
+            }
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    padding: 0 1rem;
+
+                    a {
+                        font-size: 1rem;
+
+                        &:hover {
+                            color: variables.$couleurAhover;
+                        }
+                    }
+                }
+            }
+
+            .lien-gh {
+                margin-left: 0.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+
+
+    }
+
+}

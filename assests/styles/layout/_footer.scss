@@ -1,0 +1,14 @@
+@use '../variables';
+
+.footer {
+    display: block;
+    padding: 0.7rem 2rem;
+
+    .foot-container {
+        max-width: variables.$windowMaxSize;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
