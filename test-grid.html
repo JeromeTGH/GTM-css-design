@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test display grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: grid;
+            /* grid-template-columns: 1; */
+            grid-template-rows: min-content 1fr min-content;
+            min-height: 100vh;
+        }
+
+        div {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ligne1">1</div>
+    <div class="ligne2">
+        <p>(contenu à venir)<br><br><br><br><br>(contenu à venir)</p>
+        <p>(contenu à venir)<br><br><br><br><br>(contenu à venir)</p>
+        <p>(contenu à venir)<br><br><br><br><br>(contenu à venir)</p>
+        <p>(contenu à venir)<br><br><br><br><br>(contenu à venir)</p>
+    </div>
+    <div class="ligne3">3</div>
+</body>
+
+</html>
