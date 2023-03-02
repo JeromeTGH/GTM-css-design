@@ -14,10 +14,6 @@
         .header-insidepart-logo {
             a {
                 font-size: 2rem;
-
-                &:hover {
-                    color: $couleurAhover;
-                }
             }
         }
 
@@ -35,15 +31,11 @@
 
                     a {
                         font-size: 1rem;
-
-                        &:hover {
-                            color: $couleurAhover;
-                        }
                     }
                 }
             }
 
-            .header-insidepart-navmenu-ghlink {
+            .header-insidepart-navmenu-btnLogInOut {
                 margin-left: 0.5rem;
                 display: flex;
                 align-items: center;

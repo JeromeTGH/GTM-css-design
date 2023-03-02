@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: $couleurTexte;
 }
 
 body {
@@ -15,8 +16,28 @@ body {
 
 a {
     text-decoration: none;
-    color: $couleurA;
+    color: $couleurPrimaire;
     font-weight: bold;
+
+    &:hover {
+        color: $couleurSecondaire;
+    }
+}
+
+button {
+    text-decoration: none;
+    color: $couleurTexteInverse;
+    background: $couleurPrimaire;
+    padding: 4px 6px;
+    border: 1px solid $couleurPrimaire;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $couleurSecondaire;
+        border: 1px solid $couleurSecondaire;
+    }
 }
 
 .souligne {
