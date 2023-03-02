@@ -5,13 +5,15 @@
     padding: 0.7rem 2rem;
 
     .header-insidepart {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: min-content auto min-content;
         align-items: center;
         max-width: $windowMaxSize;
         margin: auto;
 
         .header-insidepart-logo {
+            display: block;
+
             a {
                 font-size: 2rem;
             }
@@ -19,6 +21,7 @@
 
         .header-insidepart-navmenu {
             display: flex;
+            justify-content: flex-end;
             align-items: center;
 
             .header-insidepart-navmenu-ul {
@@ -35,14 +38,12 @@
                 }
             }
 
-            .header-insidepart-navmenu-btnLogInOut {
-                margin-left: 0.5rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
         }
 
+        .header-insidepart-btnLogInOut {
+            display: block;
+            margin-left: 0.5rem;
+        }
 
 
     }

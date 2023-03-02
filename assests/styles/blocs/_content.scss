@@ -1,8 +1,9 @@
 .content {
+    display: block;
 
     .content-insidepart {
         padding: 1rem;
-        border: 1px solid #AA88AA;
+        // border: 1px solid #AA88AA;
         max-width: $windowMaxSize;
         margin: auto;
     }

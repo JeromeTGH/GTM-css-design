@@ -7,11 +7,9 @@
 body {
   background-color: #eeeaf5;
   font-family: sans-serif;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
   min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-content: center;
 }
 
 a {
@@ -49,17 +47,21 @@ button:hover {
   padding: 0.7rem 2rem;
 }
 .header .header-insidepart {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: min-content auto min-content;
   align-items: center;
   max-width: 1400px;
   margin: auto;
+}
+.header .header-insidepart .header-insidepart-logo {
+  display: block;
 }
 .header .header-insidepart .header-insidepart-logo a {
   font-size: 2rem;
 }
 .header .header-insidepart .header-insidepart-navmenu {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 .header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-ul {
@@ -73,16 +75,16 @@ button:hover {
 .header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-ul li a {
   font-size: 1rem;
 }
-.header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-btnLogInOut {
+.header .header-insidepart .header-insidepart-btnLogInOut {
+  display: block;
   margin-left: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+.content {
+  display: block;
+}
 .content .content-insidepart {
   padding: 1rem;
-  border: 1px solid #AA88AA;
   max-width: 1400px;
   margin: auto;
 }
@@ -90,7 +92,8 @@ button:hover {
 .footer {
   display: block;
   padding: 0.7rem 2rem;
-  box-shadow: 0 -5px 20px 0 #ccbbcc;
+  background-color: #f3f1f9;
+  box-shadow: 0 0 20px 0 #ccbbcc;
 }
 .footer .footer-insidepart {
   max-width: 1400px;

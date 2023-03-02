@@ -7,11 +7,9 @@
 body {
     background-color: $couleurFondBody;
     font-family: $fontFam;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
     min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-content: center;
 }
 
 a {
