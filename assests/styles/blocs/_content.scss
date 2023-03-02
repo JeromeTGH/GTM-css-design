@@ -1,6 +1,9 @@
 .content {
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
-    min-height: 75vh;
+
+    .content-insidepart {
+        padding: 1rem;
+        border: 1px solid #AA88AA;
+        max-width: $windowMaxSize;
+        margin: auto;
+    }
 }

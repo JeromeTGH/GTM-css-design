@@ -7,10 +7,18 @@ body {
     background-color: $couleurFondBody;
     font-family: $fontFam;
     min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
 }
 
 a {
     text-decoration: none;
     color: $couleurA;
     font-weight: bold;
+}
+
+.souligne {
+    text-decoration: underline;
 }

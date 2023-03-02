@@ -1,12 +1,13 @@
 .footer {
     display: block;
     padding: 0.7rem 2rem;
+    box-shadow: 0 -5px 20px 0 $couleurOmbreNav;
 
     .footer-insidepart {
         max-width: $windowMaxSize;
         margin: auto;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }
