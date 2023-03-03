@@ -46,36 +46,36 @@ button:hover {
   box-shadow: 0 0 20px 0 #ccbbcc;
   padding: 0.7rem 2rem;
 }
-.header .header-insidepart {
+.header .header-container {
   display: grid;
   grid-template-columns: min-content auto min-content;
   align-items: center;
   max-width: 1400px;
   margin: auto;
 }
-.header .header-insidepart .header-insidepart-logo {
+.header .header-container .header-container-logo {
   display: block;
 }
-.header .header-insidepart .header-insidepart-logo a {
+.header .header-container .header-container-logo a {
   font-size: 2rem;
 }
-.header .header-insidepart .header-insidepart-navmenu {
+.header .header-container .header-container-navmenu {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-ul {
+.header .header-container .header-container-navmenu .header-container-navmenu-ul {
   display: flex;
   align-items: center;
 }
-.header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-ul li {
+.header .header-container .header-container-navmenu .header-container-navmenu-ul li {
   list-style: none;
   padding: 0 1rem;
 }
-.header .header-insidepart .header-insidepart-navmenu .header-insidepart-navmenu-ul li a {
+.header .header-container .header-container-navmenu .header-container-navmenu-ul li a {
   font-size: 1rem;
 }
-.header .header-insidepart .header-insidepart-btnLogInOut {
+.header .header-container .header-container-btnLogInOut {
   display: block;
   margin-left: 0.5rem;
 }
@@ -83,7 +83,7 @@ button:hover {
 .content {
   display: block;
 }
-.content .content-insidepart {
+.content .content-container {
   padding: 1rem;
   max-width: 1400px;
   margin: auto;
@@ -95,7 +95,7 @@ button:hover {
   background-color: #f3f1f9;
   box-shadow: 0 0 20px 0 #ccbbcc;
 }
-.footer .footer-insidepart {
+.footer .footer-container {
   max-width: 1400px;
   margin: auto;
   display: flex;
