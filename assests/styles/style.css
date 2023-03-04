@@ -80,6 +80,16 @@ button:hover {
   margin-left: 0.5rem;
 }
 
+.loginblock {
+  margin: auto;
+}
+.loginblock form {
+  padding: 1rem;
+  border: 1px solid #AA88AA;
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   display: block;
 }
@@ -88,15 +98,6 @@ button:hover {
   border: 1px solid #AA88AA;
   max-width: 1400px;
   margin: auto;
-}
-.content .content-container .content-container-formlogin {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-.content .content-container .content-container-formlogin form {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer {
