@@ -85,8 +85,18 @@ button:hover {
 }
 .content .content-container {
   padding: 1rem;
+  border: 1px solid #AA88AA;
   max-width: 1400px;
   margin: auto;
+}
+.content .content-container .content-container-formlogin {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.content .content-container .content-container-formlogin form {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
