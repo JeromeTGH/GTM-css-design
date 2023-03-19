@@ -136,9 +136,12 @@ footer .footer-container {
 .main-container-profil .main-container-profil-left,
 .main-container-profil .main-container-profil-right {
   width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 2rem;
-  padding: 2rem;
-  border: 1px solid #AA88AA;
+  padding: 1.2rem 2rem;
+  border: 2px solid #AA88AA;
+  border-radius: 16px;
 }
 .main-container-profil .main-container-profil-left .main-container-profil-left-btn,
 .main-container-profil .main-container-profil-right .main-container-profil-left-btn {
@@ -166,7 +169,7 @@ footer .footer-container {
 .main-container-profil .main-container-profil-right .main-container-profil-left-lblEmail,
 .main-container-profil .main-container-profil-right .main-container-profil-left-lblPseudo {
   font-weight: bold;
-  margin-top: 1.8rem;
+  margin-top: 2.4rem;
   margin-bottom: 0.4rem;
 }
 .main-container-profil .main-container-profil-left .main-container-profil-left-txtEmail,
@@ -176,4 +179,33 @@ footer .footer-container {
   font-style: italic;
   padding-left: 1.2rem;
   color: #7e2358;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-right-tachesAfaire,
+.main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire {
+  list-style: none;
+  border: 2px solid #AA88AA;
+  border-radius: 16px;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #dabece;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-title,
+.main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-description,
+.main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-description {
+  font-size: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  font-style: italic;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-btns,
+.main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire .main-container-profil-right-tachesAfaire-btns {
+  text-align: right;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-right-tachesAfaire input[type=text],
+.main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire input[type=text] {
+  width: 100%;
 }
