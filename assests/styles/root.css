@@ -209,3 +209,53 @@ footer .footer-container {
 .main-container-profil .main-container-profil-right .main-container-profil-right-tachesAfaire input[type=text] {
   width: 100%;
 }
+
+.main-container-tachesAfaire {
+  display: flex;
+  border: 2px solid #AA88AA;
+  border-radius: 16px;
+  text-align: center;
+  background: #dabece;
+  margin: 1rem;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left,
+.main-container-tachesAfaire .main-container-tachesAfaire-right {
+  width: 50%;
+  margin: 1.2rem;
+  padding: 1.2rem 2rem;
+  border: 1px solid #AA88AA;
+  border-radius: 16px;
+  background: #f0def6;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left .main-container-tachesAfaire-left-btn,
+.main-container-tachesAfaire .main-container-tachesAfaire-right .main-container-tachesAfaire-left-btn {
+  padding-top: 1.4rem;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left .main-container-tachesAfaire-left-title,
+.main-container-tachesAfaire .main-container-tachesAfaire-left .main-container-tachesAfaire-right-title,
+.main-container-tachesAfaire .main-container-tachesAfaire-right .main-container-tachesAfaire-left-title,
+.main-container-tachesAfaire .main-container-tachesAfaire-right .main-container-tachesAfaire-right-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #AA88AA;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left .main-container-tachesAfaire-left-date,
+.main-container-tachesAfaire .main-container-tachesAfaire-right .main-container-tachesAfaire-left-date {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left table,
+.main-container-tachesAfaire .main-container-tachesAfaire-right table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.main-container-tachesAfaire .main-container-tachesAfaire-left th,
+.main-container-tachesAfaire .main-container-tachesAfaire-left td,
+.main-container-tachesAfaire .main-container-tachesAfaire-right th,
+.main-container-tachesAfaire .main-container-tachesAfaire-right td {
+  border: 1px solid #AA88AA;
+  padding: 0.4rem;
+}
