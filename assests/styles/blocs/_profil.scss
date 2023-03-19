@@ -1,0 +1,47 @@
+.main-container-profil {
+    display: flex;
+
+    .main-container-profil-left,
+    .main-container-profil-right {
+        width: 50%;
+        margin: 2rem;
+        padding: 2rem;
+        border: 1px solid $couleurDeBordure;
+
+        .main-container-profil-left-btn {
+            text-align: right;
+            padding-top: 0.4rem;
+            // padding-bottom: 0.4rem;
+        }
+
+        .main-container-profil-left-title,
+        .main-container-profil-right-title {
+            font-weight: bold;
+            font-size: 1.8rem;
+            border-bottom: 2px solid $couleurDeBordure;
+            padding-bottom: 0.2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .main-container-profil-left-creationdate {
+            font-style: italic;
+            font-size: 0.8rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .main-container-profil-left-lblEmail,
+        .main-container-profil-left-lblPseudo {
+            font-weight: bold;
+            margin-top: 1.8rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .main-container-profil-left-txtEmail,
+        .main-container-profil-left-txtPseudo {
+            font-style: italic;
+            padding-left: 1.2rem;
+            color: $couleurPrimaire;
+        }
+
+    }
+}

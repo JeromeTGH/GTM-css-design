@@ -3,7 +3,7 @@
 
     form {
         padding: 4rem;
-        border: 1px solid #AA88AA;
+        border: 1px solid $couleurDeBordure;
         display: flex;
         flex-direction: column;
         background: $couleurFondLogin;

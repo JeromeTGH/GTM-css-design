@@ -26,7 +26,7 @@ button,
   text-decoration: none;
   color: #FFFFFF;
   background: #7e2358;
-  padding: 4px 6px;
+  padding: 6px;
   border: 1px solid #7e2358;
   font-weight: bold;
   border-radius: 8px;
@@ -112,7 +112,6 @@ main {
 }
 main .main-container {
   padding: 1rem;
-  border: 1px solid #AA88AA;
   max-width: 1400px;
   margin: auto;
 }
@@ -129,4 +128,52 @@ footer .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.main-container-profil {
+  display: flex;
+}
+.main-container-profil .main-container-profil-left,
+.main-container-profil .main-container-profil-right {
+  width: 50%;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #AA88AA;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-left-btn,
+.main-container-profil .main-container-profil-right .main-container-profil-left-btn {
+  text-align: right;
+  padding-top: 0.4rem;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-left-title,
+.main-container-profil .main-container-profil-left .main-container-profil-right-title,
+.main-container-profil .main-container-profil-right .main-container-profil-left-title,
+.main-container-profil .main-container-profil-right .main-container-profil-right-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #AA88AA;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-left-creationdate,
+.main-container-profil .main-container-profil-right .main-container-profil-left-creationdate {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 1.4rem;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-left-lblEmail,
+.main-container-profil .main-container-profil-left .main-container-profil-left-lblPseudo,
+.main-container-profil .main-container-profil-right .main-container-profil-left-lblEmail,
+.main-container-profil .main-container-profil-right .main-container-profil-left-lblPseudo {
+  font-weight: bold;
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+.main-container-profil .main-container-profil-left .main-container-profil-left-txtEmail,
+.main-container-profil .main-container-profil-left .main-container-profil-left-txtPseudo,
+.main-container-profil .main-container-profil-right .main-container-profil-left-txtEmail,
+.main-container-profil .main-container-profil-right .main-container-profil-left-txtPseudo {
+  font-style: italic;
+  padding-left: 1.2rem;
+  color: #7e2358;
 }
