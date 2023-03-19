@@ -1,6 +1,8 @@
 //  Importation de tous les fichiers SCSS nécessaires au projet
-@import './variables';
-@import './global';
+@import './globals/colors';
+@import './globals/fonts';
+@import './globals/dimensions';
+@import './globals/global';
 
 @import './blocs/header';
 @import './blocs/login';

@@ -22,7 +22,8 @@ a {
     }
 }
 
-button {
+button,
+.btn {
     text-decoration: none;
     color: $couleurTexteInverse;
     background: $couleurPrimaire;

@@ -21,7 +21,8 @@ a:hover {
   color: #be6398;
 }
 
-button {
+button,
+.btn {
   text-decoration: none;
   color: #FFFFFF;
   background: #7e2358;
@@ -31,7 +32,8 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
-button:hover {
+button:hover,
+.btn:hover {
   background-color: #be6398;
   border: 1px solid #be6398;
 }
@@ -84,10 +86,25 @@ header .header-container .header-container-btnLogInOut {
   margin: auto;
 }
 .loginblock form {
-  padding: 1rem;
+  padding: 4rem;
   border: 1px solid #AA88AA;
   display: flex;
   flex-direction: column;
+  background: #f9f7ff;
+}
+.loginblock .loginblock-switch {
+  display: flex;
+}
+.loginblock .loginblock-switch .inactif {
+  background: #ead6dd;
+  color: #7e2358;
+}
+.loginblock .loginblock-switch button {
+  border-radius: 0;
+  width: 50%;
+  border-bottom: none;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
 main {
