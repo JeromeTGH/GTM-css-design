@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+    <title>Détail liste de tâches à faire</title>
     <link rel="stylesheet" href="./assests/styles/root.css">
 </head>
 
@@ -30,9 +29,31 @@
     </header>
     <main>
         <div class="main-container">
-            <p>(contenu à venir)<br /><br /><br /><br /><br />(contenu à venir)</p>
-            <p>(contenu à venir)<br /><br /><br /><br /><br />(contenu à venir)</p>
-            <p>(contenu à venir)<br /><br /><br /><br /><br />(contenu à venir)</p>
+            <div class="main-container-detailTacheAfaire">
+                <div class="main-container-detailTacheAfaire-entete">
+                    <p class="main-container-detailTacheAfaire-entete-libelle">Liste n°</p>
+                    <p class="main-container-detailTacheAfaire-entete-numeroListe">12</p>
+                    <p class="main-container-detailTacheAfaire-entete-btn"><button>Clôturer totalement cette liste</button>
+                    </p>
+                </div>
+
+                <div class="main-container-detailTacheAfaire-ligne">
+                    <div class="main-container-detailTacheAfaire-ligne-checkbox"><input type="checkbox" name="monnom1" id="monid1" /></div>
+                    <div class="main-container-detailTacheAfaire-ligne-blocTache">
+                        <p class="main-container-detailTacheAfaire-ligne-blocTache-libelle">Libellé tâche 1</p>
+                        <p class="main-container-detailTacheAfaire-ligne-blocTache-description">Description tâche 1</p>
+                    </div>
+                </div>
+
+                <div class="main-container-detailTacheAfaire-ligne">
+                    <div class="main-container-detailTacheAfaire-ligne-checkbox"><input type="checkbox" name="monnom2" id="monid2" /></div>
+                    <div class="main-container-detailTacheAfaire-ligne-blocTache">
+                        <p class="main-container-detailTacheAfaire-ligne-blocTache-libelle">Libellé tâche 2</p>
+                        <p class="main-container-detailTacheAfaire-ligne-blocTache-description">Description tâche 2</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </main>
     <footer>
