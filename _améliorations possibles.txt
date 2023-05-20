@@ -1,0 +1,6 @@
+
+- Dans id root :
+	-> div class "1 bloc centré"
+	-> div class "1 bloc centre avec footer"
+	-> div class "3 bloc, min auto min"
+
